@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+html {
+  --mc: #2cb693;
+  --nrc: #cb333b;
+  --gc: #dddddd;
+  --ngc: #75787b;
+  --wc: #f9f9f9;
+}
+
+body {
+  /* default.css에 line-height가 없어서 여기서 설정해준다. */
+  line-height: 1;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+
+body a {
+  color: inherit;
+}
+
+ol {
+  list-style: none;
+}
+
+p {
+  line-height: 1.45;
+  word-break: keep-all;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-size: normal;
+}
+
+.slick-track, .slick-list {
+  transition-delay: 30ms;
+}
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.section p.title {
+  line-height: 1;
+  font-size: 17px;
+  margin: 0 0 40px 0;
+}
+
+.Wrap {}
+
+.top_slogan {
+  border-bottom: 1px solid var(--gc);
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.top_slogan ul {
+  justify-content: space-between;
+}
+
+.header {
+  line-height: 100px;
+  border-bottom: 1px solid var(--gc);
+}
+
+.header h1 {
+  font-size: 0;
+}
+
+.header h1 img {
+  width: 200px;
+}
+
+.header .inner {
+  justify-content: space-between;
+}
+
+.header .gnb ul {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main_visual {
+  position: relative;
+}
+
+.main_visual .main_slide figure {
+  height: 700px;
+}
+
+.main_visual .main_slide .itm01 {
+  background: url(../img/main00.jpg) no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm02 {
+  background: url(../img/main01.jpg) no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm03 {
+  background: url(../img/main02.jpg) no-repeat center center/cover;
+}
+
+.main_visual .slogan {
+  position: absolute;
+  width: 1200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--wc);
+  text-shadow: 0 0 2px #444;
+}
+
+.main_visual .slogan h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.main_visual .slogan p {
+  font-size: 22px;
+}
+
+.sub_page {}
+
+.sub_page .page {
+  background: var(--mc);
+  color: var(--wc);
+  line-height: 40px;
+}
+
+.sub_page .page ol {
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.sub_page article {
+  flex: 1;
+  padding: 40px 50px 40px 0;
+  overflow: hidden;
+}
+
+.sub_page aside {
+  width: 300px;
+  padding: 40px 0 0 40px;
+  border-left: 1px solid var(--gc);
+  min-height: 600px;
+}
+
+.sub_page article h3 {
+  border-bottom: 1px solid var(--gc);
+  line-height: 60px;
+  font-size: 18px;
+  margin: 0 0 50px 0;
+}
+
+.sub_page .lnb li {
+  line-height: 40px;
+  border-bottom: 1px solid var(--gc);
+}
+
+.sub_page .lnb li.on {
+  background: var(--mc);
+  color: var(--wc);
+}
+
+.footer {
+  border-top: 1px solid var(--gc);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer ul {
+  margin: 0 0 20px 0;
+}
+
+
+.footer li {
+  margin: 0 0 10px 0;
+}
+
+.footer address {
+  font-size: 14px;
+}
